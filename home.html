@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar_container">
+    <ul class="navbar_container__list">
+      <div class="side">
+        <li class="navbar_container__list-item"><a href="pages.html"><i class="fa-regular fa-newspaper"></i>&nbsp;
+            Pages</a>
+        </li>
+        <li class="navbar_container__list-item"><a href=""><i class="fa-solid fa-users"></i>&nbsp; Users</a>
+        </li>
+      </div>
+      <div>
+        <a href="home.html" class="logo_link">
+          <h1 class="navbar_title"><i class="fa-solid fa-layer-group"></i>&nbsp; Stech</h1>
+        </a>
+      </div>
+      <div class="side">
+        <li class="navbar_container__list-item login_link"><a href=""><i class="fa-regular fa-user"></i>&nbsp;
+            Login</a></li>
+        <li class="navbar_container__list-item register_link"><a href=""><i class="fa-solid fa-right-to-bracket"></i>
+            &nbsp;Sign Up</a></li>
+      </div>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="header_container">
+    <section class="header_hero">
+      <div class="header_hero-text">
+        <h1 class="header_hero__heading">Building Blocks of Successful Tech Companies</h1>
+        <p class="header_hero__paragraph">Here, you can delve into the <mark>inner workings of some of
+            the most innovative tech companies</mark> and discover the secrets to their success. With <b>in-depth
+            articles
+            and
+            expert
+            analysis</b>, you'll gain valuable insights into the technologies and processes that power their products.
+        </p>
+      </div>
+      <img class="header_hero-img-1" src="images/hero_1.svg" alt="">
+    </section>
+    <section class="header_hero">
+      <img class="header_hero-img-2" src="images/hero_2.svg" alt="">
+      <div class="header_hero-text-2">
+        <p class="header_hero__paragraph">Our platform goes beyond just covering tech companies, as we also have
+          <mark>dedicated sections for various cutting-edge
+            technologies</mark> such as virtual reality, artificial intelligence, cybersecurity, and more. Whether
+          you're
+          interested in
+          learning the latest industry developments or gaining a deeper understanding of specific technologies, we have
+          the
+          information you need.
+        </p>
+        <p class="header_hero__paragraph">In addition to informative content, our <mark>community of
+            tech-enthusiasts</mark> provides
+          a platform for you to connect and engage
+          with like-minded individuals. Whether you're looking for <b>collaboration opportunities, seeking to exchange
+            ideas, or
+            simply want to stay connected with the tech world</b>, our community is here for you.
+        </p>
+      </div>
+    </section>
+    <section class="header_hero header-form-section">
+      <!-- Search -->
+      <form action="" method="GET" class="header-form">
+        <p class="header_hero__paragraph header-form-p">So why wait? Start your journey into the exciting and
+          ever-evolving world of
+          technology today, and discover all
+          the
+          opportunities waiting for you!</p>
+        <label for="search-pages" class="search-pages-label">Discover Pages</label>
+        <input type="search" placeholder="Discover tech companies or communities" class="header-form-search"
+          name="search-pages" id="search-pages">
+      </form>
+      <div class="companies-list">
+        <div class="company-item">
+          <img src="images/notion_logo.png" alt="" class="company-logo">
+          <span class="company-title">Notion</span>
+        </div>
+        <div class="company-item">
+          <img src="images/shapr_logo.png" alt="" class="company-logo">
+          <span class="company-title">Shapr3d</span>
+        </div>
+        <div class="company-item">
+          <img src="images/goodnotes_logo.png" alt="" class="company-logo">
+          <span class="company-title">Goodnotes</span>
+        </div>
+        <div class="company-item">
+          <img src="images/openai_logo.jpeg" alt="" class="company-logo">
+          <span class="company-title">OpenAI</span>
+        </div>
+        <div class="company-item">
+          <img src="images/figma_logo.png" alt="" class="company-logo">
+          <span class="company-title">Figma</span>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <!-- <main class="main_container">
+
+  </main> -->
+
+  <form action="#" method="POST" class="email-form">
+    <p class="header_hero__paragraph header-form-p">Stay Updated!</p>
+    <label for="name" class="search-pages-label">Name</label>
+    <input type="text" placeholder="Name" class="header-form-search" name="name" id="name">
+    <label for="email" class="search-pages-label">Email</label>
+    <input type="email" placeholder="Email" class="header-form-search" name="email" id="email">
+    <button type="submit" class="email-submit">Submit</button>
+  </form>
+
+  <footer class="footer">
+    <p>&copy; Stech 2023</p>
+  </footer>
+</body>
+
+</html>
